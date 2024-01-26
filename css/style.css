@@ -283,17 +283,18 @@ button {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: 0px 20px;
   text-shadow: #0607078e 2px 2px 3px;
+  padding: 0;
+  margin: 0;
   font-size: 16px;
-  color: #ffffff;
+  color: rgb(192, 192, 192);
   text-transform: uppercase;
   font-weight: 500;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: var(--color-primario);
+  color: #ffffff;
 }
 
 .navbar-light .navbar-nav .active > .nav-link,
@@ -301,6 +302,30 @@ button {
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
   color: var(--color-primario);
+}
+.nav-item {
+  position: relative;
+  margin: 0px 10px;
+  padding: 0px 5px;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 2px;
+  border-radius: 4px;
+  background-color: var(--color-primario);
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.2s ease-in-out;
+}
+.nav-link:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
 }
 
 .login_bt {
