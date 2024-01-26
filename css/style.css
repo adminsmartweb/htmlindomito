@@ -249,7 +249,7 @@ button {
 
 .header_bg {
   width: 100%;
-  background: #ddebf8;
+  background: #1a1a1a;
 }
 
 .header_section::after {
@@ -272,8 +272,8 @@ button {
 
 .logo {
   width: auto;
-  width: 8rem; 
- filter: drop-shadow(rgb(37, 37, 37) 2px 2px 6px);
+  width: 8rem;
+  filter: drop-shadow(rgb(37, 37, 37) 2px 2px 6px);
 }
 
 .ml-auto,
@@ -339,8 +339,17 @@ button {
 .banner_taital_main {
   width: 43%;
   float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
+.banner_text_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+  text-align: center;
+}
 .banner_taital {
   width: 100%;
   float: left;
@@ -352,6 +361,16 @@ button {
   font-family: "Poppins", sans-serif;
 }
 
+.banner_title {
+  color: var(--color-primario);
+  margin: 0;
+  font-size: 34px;
+  text-align: center;
+  width: 100%;
+
+  letter-spacing: 12px;
+}
+
 .banner_text {
   width: 80%;
   float: left;
@@ -359,11 +378,13 @@ button {
   color: #c5c5c5;
   padding-top: 30px;
   margin: 0px;
+  text-align: center;
 }
 
 .btn_main {
   width: 100%;
   display: flex;
+  justify-content: center;
 }
 
 .started_text {
@@ -385,7 +406,7 @@ button {
 
 .started_text a:hover {
   color: #ffffff;
-  background-color: #060707;
+  filter: opacity(0.8);
 }
 
 .started_text.active a {
@@ -431,19 +452,21 @@ button {
 .about_section {
   width: 100%;
   float: left;
+  background-color: #060707;
+  padding-bottom: 5rem;
 }
 
 .about_taital {
   width: 100%;
   display: flex;
   font-size: 30px;
-  color: #0f0f0f;
+  color: #adadad;
   font-weight: bold;
 }
 
 .border_0 {
   width: 200px;
-  background-color: #f5a738 !important;
+  background-color: var(--color-primario) !important;
   height: 2px;
   top: 20px;
   position: relative;
@@ -454,7 +477,11 @@ button {
   width: 100%;
   font-size: 14px;
   margin: 0px;
-  color: #0f0f0f;
+  color: #919191;
+}
+
+.about_img img {
+  border-radius: 10px;
 }
 
 .about_section_2 {
@@ -467,7 +494,8 @@ button {
   width: 92%;
   font-size: 16px;
   margin: 0px;
-  color: #0f0f0f;
+  color: #919191;
+
   padding-top: 150px;
 }
 
@@ -521,7 +549,7 @@ button {
 
 .border_0 {
   width: 200px;
-  background-color: #f5a738 !important;
+  background-color: var(--color-primario) !important;
   height: 2px;
   top: 20px;
   position: relative;
@@ -746,7 +774,7 @@ button {
 
 .border_0 {
   width: 200px;
-  background-color: #f5a738 !important;
+  background-color: var(--color-primario) !important;
   height: 2px;
   top: 20px;
   position: relative;
