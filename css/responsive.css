@@ -1,5 +1,10 @@
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+/*--------------------------------------------------------------------- variables ---------------------------------------------------------------------*/
 
+:root {
+  --color-primario: #eb0000;
+  --tamanio-fuente: 16px;
+}
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -209,7 +214,7 @@
   #my_slider .carousel-control-prev {
     width: 45px;
     height: 45px;
-    background: #f5a738;
+    background: var(--color-primario);
     opacity: 1;
     font-size: 30px;
     color: #ffffff;
@@ -307,9 +312,8 @@
     margin-top: 20px;
   }
   .navbar-toggler {
-  
   }
- 
+
   .header_section {
     background-size: cover;
     min-height: auto;
@@ -353,7 +357,7 @@
   #my_slider .carousel-control-prev {
     width: 45px;
     height: 45px;
-    background: #f5a738;
+    background: var(--color-primario);
     opacity: 1;
     font-size: 30px;
     color: #ffffff;
@@ -480,7 +484,7 @@
   #my_slider .carousel-control-prev {
     width: 45px;
     height: 45px;
-    background: #f5a738;
+    background: var(--color-primario);
     opacity: 1;
     font-size: 30px;
     color: #ffffff;

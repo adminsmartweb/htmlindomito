@@ -249,7 +249,7 @@ button {
 
 .header_bg {
   width: 100%;
-  background: #ddebf8;
+  background: #1a1a1a;
 }
 
 .header_section::after {
@@ -272,8 +272,8 @@ button {
 
 .logo {
   width: auto;
-  width: 8rem; 
- filter: drop-shadow(rgb(37, 37, 37) 2px 2px 6px);
+  width: 8rem;
+  filter: drop-shadow(rgb(37, 37, 37) 2px 2px 6px);
 }
 
 .ml-auto,
@@ -385,7 +385,7 @@ button {
 
 .started_text a:hover {
   color: #ffffff;
-  background-color: #060707;
+  filter: opacity(0.8);
 }
 
 .started_text.active a {
@@ -443,7 +443,7 @@ button {
 
 .border_0 {
   width: 200px;
-  background-color: #f5a738 !important;
+  background-color: var(--color-primario) !important;
   height: 2px;
   top: 20px;
   position: relative;
@@ -521,7 +521,7 @@ button {
 
 .border_0 {
   width: 200px;
-  background-color: #f5a738 !important;
+  background-color: var(--color-primario) !important;
   height: 2px;
   top: 20px;
   position: relative;
@@ -746,7 +746,7 @@ button {
 
 .border_0 {
   width: 200px;
-  background-color: #f5a738 !important;
+  background-color: var(--color-primario) !important;
   height: 2px;
   top: 20px;
   position: relative;
