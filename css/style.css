@@ -55,7 +55,7 @@ body {
   height: auto;
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: "Roboto", sans-serif;
+ font-family: 'Oswald', sans-serif;
 }
 
 a {
@@ -399,7 +399,7 @@ button {
 .banner_text {
   width: 80%;
   float: left;
-  font-size: 16px;
+  font-size: 18px;
   color: #c5c5c5;
   padding-top: 30px;
   margin: 0px;
@@ -501,7 +501,7 @@ button {
 
 .about_text {
   width: 100%;
-  font-size: 14px;
+  font-size: 18px;
   margin: 0px;
   color: #919191;
 }
@@ -518,7 +518,7 @@ button {
 
 .about_text_1 {
   width: 92%;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0px;
   color: #919191;
 
