@@ -339,8 +339,17 @@ button {
 .banner_taital_main {
   width: 43%;
   float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
+.banner_text_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+  text-align: center;
+}
 .banner_taital {
   width: 100%;
   float: left;
@@ -352,6 +361,16 @@ button {
   font-family: "Poppins", sans-serif;
 }
 
+.banner_title {
+  color: var(--color-primario);
+  margin: 0;
+  font-size: 34px;
+  text-align: center;
+  width: 100%;
+
+  letter-spacing: 12px;
+}
+
 .banner_text {
   width: 80%;
   float: left;
@@ -359,11 +378,13 @@ button {
   color: #c5c5c5;
   padding-top: 30px;
   margin: 0px;
+  text-align: center;
 }
 
 .btn_main {
   width: 100%;
   display: flex;
+  justify-content: center;
 }
 
 .started_text {
@@ -431,13 +452,15 @@ button {
 .about_section {
   width: 100%;
   float: left;
+  background-color: #060707;
+  padding-bottom: 5rem;
 }
 
 .about_taital {
   width: 100%;
   display: flex;
   font-size: 30px;
-  color: #0f0f0f;
+  color: #adadad;
   font-weight: bold;
 }
 
@@ -454,7 +477,11 @@ button {
   width: 100%;
   font-size: 14px;
   margin: 0px;
-  color: #0f0f0f;
+  color: #919191;
+}
+
+.about_img img {
+  border-radius: 10px;
 }
 
 .about_section_2 {
@@ -467,7 +494,8 @@ button {
   width: 92%;
   font-size: 16px;
   margin: 0px;
-  color: #0f0f0f;
+  color: #919191;
+
   padding-top: 150px;
 }
 
